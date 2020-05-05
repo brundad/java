@@ -1,0 +1,25 @@
+import java.util.*;
+public class Main{
+public static void main(String[] args) {
+Scanner s=new Scanner(System.in);
+int n=s.nextInt();
+if(n>=4 && n<10){
+   System.out.println("Value of N: "+n);
+   for(int i=0;i<n;i++){
+       if(i==0){
+           for(int j=0;j<n;j++)
+               System.out.print(n);
+       }
+       else if(i==1){
+           for(int j=0;j<n;j++){
+               if(j==0 && j==n-1)
+                   System.out.print(n);
+               else
+                   System.out.print(n-1);
+           }
+       }
+       else
+   }
+}
+}
+}
